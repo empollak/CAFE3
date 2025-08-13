@@ -19,11 +19,7 @@ if !(isNull curatorCamera) then
 private _square = "VR_Area_01_square_1x1_yellow_F" createVehicleLocal _squarePos;
 _square setPosASL (_squarePos vectorAdd [0,0,0.1]);
 
-// Add the square as an editable object
-{
-    _x addCuratorEditableObjects [[_square], true];
-} forEach allCurators;
-
+getAssignedCuratorLogic player addCuratorEditableObjects [[_square], true];
 
 f_fnc_respawnRandoAtSquare = 
 {

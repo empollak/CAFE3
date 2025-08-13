@@ -46,6 +46,7 @@ class respawn_zen
     class zen_createRespawnPoint{};
     class zen_createRespawnSquare{};
     class zen_changeTickets{};
+    class zen_respawnPlayerAtSquare{};
 };
 class respawn_ui
 {
