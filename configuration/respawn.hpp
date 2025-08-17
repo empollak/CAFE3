@@ -30,6 +30,9 @@
 // When a player respawns, do they get to teleport to a group of their choosing?
 // #define ALLOW_TELEPORT_UPON_RESPAWN
 
+// When a player respawns, do they get to choose their loadout?
+// #define ALLOW_LOADOUT_CHANGE_UPON_RESPAWN
+
 // This only takes effect for the TRIGGERED_WAVES respawn modes.  Timed modes will use the RESPAWN_DELAY settings.
 #define RESPAWN_WAVE_DURATION               60
 
